@@ -1,6 +1,6 @@
 <?php
 
-wp_header();
+wp_head();
 
 
 echo 'IT IS WORKING';
