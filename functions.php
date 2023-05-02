@@ -4,13 +4,15 @@ defined( 'ABSPATH' ) || exit;
 
 /**
  * Initiate Update Checker
+ *
+ * @since 0.0.3
  */
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://github.com/jsdizajner/heba-medizin',
+	'https://github.com/jsdizajner/sipos-digital',
 	__FILE__,
-	'heba-medizin'
+	'sipos-digital'
 );
 
 //Set the branch that contains the stable release.
